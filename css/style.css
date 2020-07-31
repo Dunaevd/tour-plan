@@ -300,6 +300,11 @@ img {
   background: url(../img/arrow-slider-prev.svg) no-repeat center center;
 }
 
+.swiper-slider {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
